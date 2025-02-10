@@ -1,5 +1,8 @@
 // document.querySelector("#submit").addEventListener("click",submit);
-document.querySelectorAll(".radioButton").forEach() .addEventListener("checked",changeChecked);
+document.querySelectorAll(".radioButton").forEach(function (element) {
+    element.addEventListener("change", changeChecked);
+  });
+  
 
 const players = document.querySelectorAll(".player");
 
@@ -14,12 +17,12 @@ function changeChecked(event){
     const radio = event.target;
     for (let index = 0; index < players.length; index++) {
         if(index < radio.value){
-            players[index].classList.add("invisible")
-            players[index].classList.remove("visible")
-        }
-        else{
             players[index].classList.remove("invisible")
             players[index].classList.add("visible")
+        }
+        else{
+            players[index].classList.add("invisible")
+            players[index].classList.remove("visible")
         }
     }
 }
