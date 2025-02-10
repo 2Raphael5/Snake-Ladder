@@ -1,0 +1,10 @@
+.invisible{
+    display: none;
+}
+.visible{
+    display: flex;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}

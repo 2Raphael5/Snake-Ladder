@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "De quoi Apollon est le dieu ? ",
+        "listeResponse": {
+            "reponse1": "Dieu de l'amour",
+            "reponse2": "Dieu de la musique",
+            "reponse3": "Dieu du vin",
+            "reponse4": "Dieu de la guerre"
+        },
+        "reponse": 2
+    },
+    {
+        "id": 2,
+        "question": "Comment appelle-t-on l'arbre cosmique qui soutient les neuf mondes ?",
+        "listeResponse": {
+            "reponse1": "Brazil",
+            "reponse2": "Yggdrasil",
+            "reponse3": "Anduril",
+            "reponse4": "Persil"
+        },
+        "reponse": 2
+    },
+    {
+        "id": 3,
+        "question": "Dans la mythologie grecque, qui est le dieu du sommeil?",
+        "listeResponse": {
+            "reponse1": "Morphée",
+            "reponse2": "Nyx",
+            "reponse3": "Hypnos",
+            "reponse4": "Sommnifos"
+        },
+        "reponse": 3
+    },
+    {
+        "id": 4,
+        "question": "Dans la mythologie nordique, le royaume des hommes est appelé...",
+        "listeResponse": {
+            "reponse1": "Middle west",
+            "reponse2": "Midland",
+            "reponse3": "Midlake",
+            "reponse4": "Midgard"
+        },
+        "reponse": 4
+    },
+    {
+        "id": 5,
+        "question": "D'où Achille tenait-il son invulnérabilité?",
+        "listeResponse": {
+            "reponse1": "Sa mère l'a baigné dans le Styx",
+            "reponse2": "Grâce à l'armure d'airain qu'il portait",
+            "reponse3": "Une potion d'ambroisie qu'il avait bue lui assurait l'invulnérabilité.",
+            "reponse4": "Demeter la bénit en le foutant dans le feu"
+        },
+        "reponse": 1
+    },
+    {
+        "id": 6,
+        "question": "C'est quoi Ásgard ?",
+        "listeResponse": {
+            "reponse1": "Royaume des Ases (les Dieux)",
+            "reponse2": "Royaume des morts",
+            "reponse3": "Royaume des fées",
+            "reponse4": "Royaume des orques"
+        },
+        "reponse": 1
+    },
+    {
+        "id": 7,
+        "question": "Pendant combien de temps Pénélope a attendu son mari Ulysse durant l'expédition et le siège de Troie?",
+        "listeResponse": {
+            "reponse1": "10 ans",
+            "reponse2": "20 ans",
+            "reponse3": "30 ans",
+            "reponse4": "69 ans"
+        },
+        "reponse": 1
+    },
+    {
+        "id": 8,
+        "question": "Quel lieu représente le paradis pour les Vikings ?",
+        "listeResponse": {
+            "reponse1": "Tartare",
+            "reponse2": "Nirvana",
+            "reponse3": "Valhalla",
+            "reponse4": "Eden"
+        },
+        "reponse": 3
+    },
+    {
+        "id": 9,
+        "question": "Quel est le 9 travail d'Hercul",
+        "listeResponse": {
+            "reponse1": "Récupérer la ceinture d'Hippolyte, reine des Amazones",
+            "reponse2": "Nettoyer les écuries d'Augias",
+            "reponse3": "Voler les bœufs de Géryon",
+            "reponse4": "Ramener les pommes d'or des Hespérides"
+        },
+        "reponse": 2
+    },
+    {
+        "id": 10,
+        "question": "Comment s'appele le marteau de Thor",
+        "listeResponse": {
+            "reponse1": "Mjölnir",
+            "reponse2": "Mjollnir",
+            "reponse3": "Mjòlnir",
+            "reponse4": "Jonathan"
+        },
+        "reponse": 4
+    }
+]
