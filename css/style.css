@@ -10,22 +10,24 @@ form{
 }
 
 .start-snake{
-    background-color: red;
+    background-color: rgb(253, 159, 159);
 }
 .end-snake {
     background-color: rgb(253, 159, 159);
 }
 
+
 .start-ladder{
-    background-color: green;
+    background-color: rgb(81, 255, 81);
 }
 
 .end-ladder{
     background-color: rgb(81, 255, 81);
 }
 
+
 .question{
-    background-color: aqua;
+    background-color: rgb(112, 255, 255);
 }
 
 .case-simple{
@@ -62,3 +64,152 @@ img{
 /*
 Pour ce déplacer, mettre les td dans une liste
 */
+
+
+body {
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#nbPlayer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.radioButton {
+    margin-right: 5px;
+}
+
+#playerNameColor {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="text"], select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#board {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+td {
+    border: 2px solid #333;
+    width: 10%;
+    aspect-ratio: 1;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    transition: all 0.3s;
+}
+
+.start-snake { background-color: #ff6b6b; }
+.end-snake { background-color: #feca57; }
+.question { background-color: #54a0ff; }
+.case-simple { background-color: #c8d6e5; }
+
+td:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#board > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#dice {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+input[type="button"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #2980b9;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: flex;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    td {
+        font-size: 12px;
+    }
+}
