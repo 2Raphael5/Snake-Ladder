@@ -31,6 +31,5 @@ function changeChecked(event){
 }
 function changeOption(event){
     let select = event.target;
-    alert(select.value);
-
+    alert(select.name);
 }
