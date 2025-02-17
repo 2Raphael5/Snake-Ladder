@@ -1,8 +1,11 @@
 // document.querySelector("#submit").addEventListener("click",submit);
+
 document.querySelectorAll(".radioButton").forEach(function (element) {
     element.addEventListener("change", changeChecked);
   });
-  
+  document.querySelectorAll("select").forEach(function (element) {
+    element.addEventListener("change", changeOption);
+});
 
 const players = document.querySelectorAll(".player");
 
@@ -25,4 +28,9 @@ function changeChecked(event){
             players[index].classList.remove("visible")
         }
     }
+}
+function changeOption(event){
+    let select = event.target;
+    alert(select.value);
+
 }
