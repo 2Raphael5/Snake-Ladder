@@ -8,3 +8,57 @@ form{
     display: flex;
     flex-direction: row;
 }
+
+.start-snake{
+    background-color: red;
+}
+.end-snake {
+    background-color: rgb(253, 159, 159);
+}
+
+.start-ladder{
+    background-color: green;
+}
+
+.end-ladder{
+    background-color: rgb(81, 255, 81);
+}
+
+.question{
+    background-color: aqua;
+}
+
+.case-simple{
+    background-color:  #ddd;
+}
+body {
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+td {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+td:hover {
+    background-color: #dddddd00;
+    cursor: pointer;
+}
+img{
+    width: 30px;
+}
+/*
+Pour ce déplacer, mettre les td dans une liste
+*/
