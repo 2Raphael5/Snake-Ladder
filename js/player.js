@@ -1,10 +1,12 @@
 class Player {
     caseActuel;
-    nomImage;
+    lienImg;
+    pseudo;
 
-    constructor(lienImg) {
+    constructor(lienImg,pseudo) {
         this.caseActuel = 0;
         this.lienImg = lienImg;
+        this.pseudo = pseudo
     }
 
     deplacement(nouvelleCase) {
@@ -12,6 +14,6 @@ class Player {
     }
 
     affichage() {
-        return `<img src="img/${this.nomImage}.png">`;
+        return `<img src="${this.lienImg}">`;
     }
 }
