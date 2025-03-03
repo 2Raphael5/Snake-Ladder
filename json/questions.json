@@ -735,5 +735,368 @@
             "reponse4": "Jonathan"
         },
         "reponse": 4
+    },
+    {
+        "id": 68,
+        "question": "Dans quel livre, souvent épais, trouve-t-on principalement des cartes de géographie ?",
+        "listeResponse": {
+            "reponse1": "Roman",
+            "reponse2": "Dictionnaire",
+            "reponse3": "Atlas",
+            "reponse4": "Agenda"
+        },
+        "reponse": 3
+    },
+    {
+        "id": 69,
+        "question": "De quelle matière très dure est principalement constituée la banquise ?",
+        "listeResponse": {
+            "reponse1": "Glace",
+            "reponse2": "Roche",
+            "reponse3": "Métal",
+            "reponse4": "Terre"
+        },
+        "reponse": 1
+    },
+    {
+        "id": 70,
+        "question": "Dans quel endroit intérieur ou extérieur faut-il mettre un bonnet pour raison d'hygiène ?",
+        "listeResponse": {
+            "reponse1": "Cinéma",
+            "reponse2": "Théâtre",
+            "reponse3": "Piscine",
+            "reponse4": "Stade"
+        },
+        "reponse": 3
+    },
+    {
+        "id": 71,
+        "question": "Quelle opération arithmétique permet de calculer le produit de deux nombres ?",
+        "listeResponse": {
+            "reponse1": "Division",
+            "reponse2": "Multiplication",
+            "reponse3": "Simplification",
+            "reponse4": "Soustraction"
+        },
+        "reponse": 2
+    },
+    {
+        "id": 72,
+        "question": "Quel sport consiste à faire du ski sur l'eau, tracté par un bateau rapide ?",
+        "listeResponse": {
+            "reponse1": "Ski nautique",
+            "reponse2": "Ski de fond",
+            "reponse3": "Ski acrobatique",
+            "reponse4": "Ski alpin"
+        },
+        "reponse": 1
+    },
+    {
+        "id": 73,
+        "question": "Duquel de nos cinq sens les personnes aveugles sont-elles hélas privées ?",
+        "listeResponse": {
+            "reponse1": "Odorat",
+            "reponse2": "Toucher",
+            "reponse3": "Ouïe",
+            "reponse4": "Vue"
+        },
+        "reponse": 4
+    },
+    {
+        "id": 74,
+        "question": "Dans quel dessin animé peux-tu entendre la célèbre phrase « Hakuna matata » ?",
+        "listeResponse": {
+            "reponse1": "« Le Roi lion »",
+            "reponse2": "« Cars »",
+            "reponse3": "« Toy Story »",
+            "reponse4": "« Dinosaure »"
+        },
+        "reponse": 1
+    },
+    {
+        "id": 75,
+        "question": "Quel sport consiste à envoyer une petite balle blanche dans un trou ?",
+        "listeResponse": {
+            "reponse1": "Cricket",
+            "reponse2": "Golf",
+            "reponse3": "Chistera",
+            "reponse4": "Croquet"
+        },
+        "reponse": 2
+    },
+    {
+        "id": 76,
+        "question": "Que porte sur la tête le capitaine Haddock, meilleur ami de Tintin ?",
+        "listeResponse": {
+            "reponse1": "Turban",
+            "reponse2": "Casque",
+            "reponse3": "Chapeau",
+            "reponse4": "Casquette"
+        },
+        "reponse": 4
+    },
+    {
+        "id": 77,
+        "question": "De quelle montagne peuvent parfois sortir des matières brûlantes ?",
+        "listeResponse": {
+            "reponse1": "Dune",
+            "reponse2": "Talus",
+            "reponse3": "Volcan",
+            "reponse4": "Rocher"
+        },
+        "reponse": 3
+    },
+    {
+        "id": 78,
+        "question": "Laquelle de ces propositions désigne ce qui apparaît en premier sur un arbre ?",
+        "listeResponse": {
+            "reponse1": "Fleur",
+            "reponse2": "Fruit",
+            "reponse3": "Pépin",
+            "reponse4": "Bourgeon"
+        },
+        "reponse": 4
+    },
+    {
+        "id": 79,
+        "question": "Dans la coquille de quel animal marin peut-on parfois trouver une perle ?",
+        "listeResponse": {
+            "reponse1": "Moule",
+            "reponse2": "Huître",
+            "reponse3": "Escargot",
+            "reponse4": "Tortue"
+        },
+        "reponse": 2
+    },
+    {
+        "id": 80,
+        "question": "Quel nom donne-t-on aux grandes collines de sable situées au bord de la mer ?",
+        "listeResponse": {
+            "reponse1": "Dunes",
+            "reponse2": "Banquises",
+            "reponse3": "Monts",
+            "reponse4": "Falaises"
+        },
+        "reponse": 1
+    },
+    {
+        "id": 81,
+        "question": "Au cours de quelle saison la plupart des arbres fleurissent-ils en Europe ?",
+        "listeResponse": {
+            "reponse1": "Été",
+            "reponse2": "Automne",
+            "reponse3": "Printemps",
+            "reponse4": "Hiver"
+        },
+        "reponse": 3
+    },
+    {
+        "id": 82,
+        "question": "Comment appelle-t-on un jeune mouton mâle âgé de moins d'un an ?",
+        "listeResponse": {
+            "reponse1": "Bélier",
+            "reponse2": "Bouc",
+            "reponse3": "Agneau",
+            "reponse4": "Biquette"
+        },
+        "reponse": 3
+    },
+    {
+        "id": 83,
+        "question": "Quelle médaille obtient un sportif arrivé deuxième d'une épreuve aux JO ?",
+        "listeResponse": {
+            "reponse1": "Argent",
+            "reponse2": "Bronze",
+            "reponse3": "Or",
+            "reponse4": "Cuivre"
+        },
+        "reponse": 1
+    },
+    {
+        "id": 84,
+        "question": "Quel appareil permet de rebondir sur une toile tendue et de faire des sauts et des figures ?",
+        "listeResponse": {
+            "reponse1": "Perche",
+            "reponse2": "Espalier",
+            "reponse3": "Javelot",
+            "reponse4": "Trampoline"
+        },
+        "reponse": 4
+    },
+    {
+        "id": 85,
+        "question": "Quel genre de chaussures porte-t-on pour pratiquer le judo en toute sécurité ?",
+        "listeResponse": {
+            "reponse1": "Bottes",
+            "reponse2": "Sabots",
+            "reponse3": "Baskets",
+            "reponse4": "Aucune"
+        },
+        "reponse": 4
+    },
+    {
+        "id": 86,
+        "question": "Combien un trèfle du jardin possède-t-il le plus souvent de feuilles ?",
+        "listeResponse": {
+            "reponse1": "Trois",
+            "reponse2": "Cinq",
+            "reponse3": "Quatre",
+            "reponse4": "Deux"
+        },
+        "reponse": 1
+    },
+    {
+        "id": 87,
+        "question": "Dans un jeu de cartes classique, de quelle couleur sont les carreaux ?",
+        "listeResponse": {
+            "reponse1": "Rouge",
+            "reponse2": "Bleu",
+            "reponse3": "Vert",
+            "reponse4": "Noir"
+        },
+        "reponse": 1
+    },
+    {
+        "id": 88,
+        "question": "Comment appelle-t-on la ligne imaginaire qui sépare deux pays ?",
+        "listeResponse": {
+            "reponse1": "Tangente",
+            "reponse2": "Section",
+            "reponse3": "Médiane",
+            "reponse4": "Frontière"
+        },
+        "reponse": 4
+    },
+    {
+        "id": 89,
+        "question": "Quel est le nombre total de points sur un dé à six faces de jeu de société ?",
+        "listeResponse": {
+            "reponse1": "21",
+            "reponse2": "18",
+            "reponse3": "15",
+            "reponse4": "30"
+        },
+        "reponse": 1
+    },
+    {
+        "id": 90,
+        "question": "Quelle catégorie d'animaux nourrissent leurs petits avec leur lait ?",
+        "listeResponse": {
+            "reponse1": "Rongeurs",
+            "reponse2": "Primates",
+            "reponse3": "Mammifères",
+            "reponse4": "Carnivores"
+        },
+        "reponse": 3
+    },
+    {
+        "id": 91,
+        "question": "Dans nos jardins, quelle partie de la plante peut s'enfoncer profondément dans la terre ?",
+        "listeResponse": {
+            "reponse1": "Tige",
+            "reponse2": "Épine",
+            "reponse3": "Pétale",
+            "reponse4": "Racine"
+        },
+        "reponse": 4
+    },
+    {
+        "id": 92,
+        "question": "En quelle matière sont fabriqués les pneus des voitures ?",
+        "listeResponse": {
+            "reponse1": "Liège",
+            "reponse2": "Carbone",
+            "reponse3": "Plastique",
+            "reponse4": "Caoutchouc"
+        },
+        "reponse": 4
+    },
+    {
+        "id": 93,
+        "question": "Comment appelle-t-on une maison construite en bois en pleine montagne ?",
+        "listeResponse": {
+            "reponse1": "Auberge",
+            "reponse2": "Caravane",
+            "reponse3": "Chalet",
+            "reponse4": "Gîte"
+        },
+        "reponse": 3
+    },
+    {
+        "id": 94,
+        "question": "Laquelle de ces nages représente le type de nage le plus rapide ?",
+        "listeResponse": {
+            "reponse1": "Papillon",
+            "reponse2": "Crawl",
+            "reponse3": "Dos",
+            "reponse4": "Basse"
+        },
+        "reponse": 2
+    },
+    {
+        "id": 95,
+        "question": "Quelle source d'énergie permet de faire avancer une planche à voile ?",
+        "listeResponse": {
+            "reponse1": "Solaire",
+            "reponse2": "Marine",
+            "reponse3": "Hydraulique",
+            "reponse4": "Éolienne"
+        },
+        "reponse": 4
+    },
+    {
+        "id": 96,
+        "question": "Quelle course cycliste de France est aussi appelée la Grande Boucle ?",
+        "listeResponse": {
+            "reponse1": "Paris-Nice",
+            "reponse2": "Tour de France",
+            "reponse3": "Milan-San Remo",
+            "reponse4": "Critérium"
+        },
+        "reponse": 2
+    },
+    {
+        "id": 97,
+        "question": "Quel est le nombre exact de fois où la lettre 'e' apparaît dans l'ouvrage 'Le Comte de Monte-Cristo' d'Alexandre Dumas ?",
+        "listeResponse": {
+            "reponse1": "1 867",
+            "reponse2": "3 415",
+            "reponse3": "2 219",
+            "reponse4": "4 111"
+        },
+        "reponse": 3
+    },
+    {
+        "id": 98,
+        "question": "日本の首都はどこですか？",
+        "listeResponse": {
+            "reponse1": "大阪",
+            "reponse2": "京都",
+            "reponse3": "東京",
+            "reponse4": "名古屋"
+        },
+        "reponse": 3
+    },
+    {
+        "id": 99,
+        "question": "Dans une salle, il y a 30 personnes. Chacune de ces personnes connaît un certain nombre de personnes dans la salle. Le nombre total de connaissances dans la salle est de 435. Combien de personnes connaissent exactement 15 autres personnes dans la salle ?",
+        "listeResponse": {
+            "reponse1": "1",
+            "reponse2": "2",
+            "reponse3": "3",
+            "reponse4": "4"
+        },
+        "reponse": 2
+    },
+    {
+        "id": 100,
+        "question": "Quelle est la valeur exacte de π (Pi) à la 50ème décimale près ?",
+        "listeResponse": {
+            "reponse1": "3.14159265358979323846264338327950288419716939937510",
+            "reponse2": "3.14159265358979323846264338327950288419716939937511",
+            "reponse3": "3.14159265358979323846264338327950288419716939937512",
+            "reponse4": "3.14159265358979323846264338327950288419716939937513"
+        },
+        "reponse": 1
     }
 ]
