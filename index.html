@@ -11,7 +11,7 @@
 
 <body>
   <main class="container">
-    <form action="" method="post">
+    <form action="" method="post" class="visible">
       <div id="nbPlayer">
         <div>
           <label for="2player">2 joueur</label>
@@ -26,6 +26,7 @@
           <input type="radio" name="nbPlayer" id="4player" class="radioButton" checked value="4">
         </div>
       </div>
+
       <div id="playerNameColor">
         <div class="player" id="Player1" class="invisible">
           <label for="player1">Player 1</label>
@@ -77,28 +78,143 @@
       </div>
     </form>
     <div class="invisible" id="board">
-        <table>
-          <tbody>
-              <tr><td class="case-simple">100</td><td class="case-simple">99</td><td class="start-snake">98-25</td><td class="question">97</td><td class="case-simple">96</td><td class="case-simple">95</td><td class="case-simple">94</td><td class="case-simple">93</td><td class="case-simple">92</td><td class="case-simple">91</td></tr>
-              <tr><td class="case-simple">81</td><td class="case-simple">82</td><td class="question">83</td><td class="case-simple">84</td><td class="case-simple">85</td><td class="case-simple">86</td><td class="start-snake">87-68</td><td class="case-simple">88</td><td class="question">89</td><td class="case-simple">90</td></tr>
-              <tr><td class="case-simple">80</td><td class="question">79</td><td class="case-simple">78</td><td class="case-simple">77</td><td class="start-ladder">76-96</td><td class="case-simple">75</td><td class="case-simple">74</td><td class="question">73</td><td class="case-simple">72</td><td class="question">71</td></tr>
-              <tr><td class="question">61</td><td class="start-ladder">62-81</td><td class="case-simple">63</td><td class="start-snake">64-46</td><td class="case-simple">65</td><td class="case-simple">66</td><td class="question">67</td><td class="case-simple">68</td><td class="start-snake">69-50</td><td class="case-simple">70</td></tr>
-              <tr><td class="case-simple">60</td><td class="question">59</td><td class="case-simple">58</td><td class="case-simple">57</td><td class="start-snake">56-26</td><td class="case-simple">55</td><td class="start-ladder">54-85</td><td class="question">53</td><td class="case-simple">52</td><td class="case-simple">51</td></tr>
-              <tr><td class="question">41</td><td class="start-snake">42-22</td><td class="question">43</td><td class="case-simple">44</td><td class="case-simple">45</td><td class="case-simple">46</td><td class="question">47</td><td class="case-simple">48</td><td class="start-ladder">49-68</td><td class="case-simple">50</td></tr>
-              <tr><td class="case-simple">40</td><td class="start-ladder">39-45</td><td class="case-simple">38</td><td class="question">37</td><td class="case-simple">36</td><td class="case-simple">35</td><td class="case-simple">34</td><td class="case-simple">33</td><td class="case-simple">32</td><td class="question">31</td></tr>
-              <tr><td class="case-simple">21</td><td class="case-simple">22</td><td class="question">23</td><td class="case-simple">24</td><td class="case-simple">25</td><td class="case-simple">26</td><td class="start-ladder">27-48</td><td class="case-simple">28</td><td class="question">29-8</td><td class="case-simple">30</td></tr>
-              <tr><td class="case-simple">20</td><td class="question">19</td><td class="case-simple">18</td><td class="question">17</td><td class="case-simple">16</td><td class="case-simple">15</td><td class="case-simple">14</td><td class="question">13</td><td class="case-simple">12</td><td class="question">11</td></tr>
-              <tr><td class="case-simple">1</td><td class="question">2</td><td class="question">3</td><td class="start-ladder-25">4</td><td class="question">5</td><td class="case-simple">6</td><td class="question">7</td><td class="case-simple">8</td><td class="case-simple">9</td><td class="case-simple">10</td></tr>
-          </tbody>
+      <table>
+        <tbody>
+          <tr>
+            <td class="case-simple">100</td>
+            <td class="case-simple">99</td>
+            <td class="start-snake">98-25</td>
+            <td class="question">97</td>
+            <td class="case-simple">96</td>
+            <td class="case-simple">95</td>
+            <td class="case-simple">94</td>
+            <td class="case-simple">93</td>
+            <td class="case-simple">92</td>
+            <td class="case-simple">91</td>
+          </tr>
+          <tr>
+            <td class="case-simple">81</td>
+            <td class="case-simple">82</td>
+            <td class="question">83</td>
+            <td class="case-simple">84</td>
+            <td class="case-simple">85</td>
+            <td class="case-simple">86</td>
+            <td class="start-snake">87-68</td>
+            <td class="case-simple">88</td>
+            <td class="question">89</td>
+            <td class="case-simple">90</td>
+          </tr>
+          <tr>
+            <td class="case-simple">80</td>
+            <td class="question">79</td>
+            <td class="case-simple">78</td>
+            <td class="case-simple">77</td>
+            <td class="start-ladder">76-96</td>
+            <td class="case-simple">75</td>
+            <td class="case-simple">74</td>
+            <td class="question">73</td>
+            <td class="case-simple">72</td>
+            <td class="question">71</td>
+          </tr>
+          <tr>
+            <td class="question">61</td>
+            <td class="start-ladder">62-81</td>
+            <td class="case-simple">63</td>
+            <td class="start-snake">64-46</td>
+            <td class="case-simple">65</td>
+            <td class="case-simple">66</td>
+            <td class="question">67</td>
+            <td class="case-simple">68</td>
+            <td class="start-snake">69-50</td>
+            <td class="case-simple">70</td>
+          </tr>
+          <tr>
+            <td class="case-simple">60</td>
+            <td class="question">59</td>
+            <td class="case-simple">58</td>
+            <td class="case-simple">57</td>
+            <td class="start-snake">56-26</td>
+            <td class="case-simple">55</td>
+            <td class="start-ladder">54-85</td>
+            <td class="question">53</td>
+            <td class="case-simple">52</td>
+            <td class="case-simple">51</td>
+          </tr>
+          <tr>
+            <td class="question">41</td>
+            <td class="start-snake">42-22</td>
+            <td class="question">43</td>
+            <td class="case-simple">44</td>
+            <td class="case-simple">45</td>
+            <td class="case-simple">46</td>
+            <td class="question">47</td>
+            <td class="case-simple">48</td>
+            <td class="start-ladder">49-68</td>
+            <td class="case-simple">50</td>
+          </tr>
+          <tr>
+            <td class="case-simple">40</td>
+            <td class="start-ladder">39-45</td>
+            <td class="case-simple">38</td>
+            <td class="question">37</td>
+            <td class="case-simple">36</td>
+            <td class="case-simple">35</td>
+            <td class="case-simple">34</td>
+            <td class="case-simple">33</td>
+            <td class="case-simple">32</td>
+            <td class="question">31</td>
+          </tr>
+          <tr>
+            <td class="case-simple">21</td>
+            <td class="case-simple">22</td>
+            <td class="question">23</td>
+            <td class="case-simple">24</td>
+            <td class="case-simple">25</td>
+            <td class="case-simple">26</td>
+            <td class="start-ladder">27-48</td>
+            <td class="case-simple">28</td>
+            <td class="question">29-8</td>
+            <td class="case-simple">30</td>
+          </tr>
+          <tr>
+            <td class="case-simple">20</td>
+            <td class="question">19</td>
+            <td class="case-simple">18</td>
+            <td class="question">17</td>
+            <td class="case-simple">16</td>
+            <td class="case-simple">15</td>
+            <td class="case-simple">14</td>
+            <td class="question">13</td>
+            <td class="case-simple">12</td>
+            <td class="question">11</td>
+          </tr>
+          <tr>
+            <td class="case-simple">1</td>
+            <td class="question">2</td>
+            <td class="question">3</td>
+            <td class="start-ladder-25">4</td>
+            <td class="question">5</td>
+            <td class="case-simple">6</td>
+            <td class="question">7</td>
+            <td class="case-simple">8</td>
+            <td class="case-simple">9</td>
+            <td class="case-simple">10</td>
+          </tr>
+        </tbody>
       </table>
       <div>
-        <img src="/img/Dé/dé1.png" id="dice" alt="">
+        <img src="/img/De/dé1.png" id="dice" alt="">
         <input type="button" id="lancerDice" value="Lancer le dé">
       </div>
     </div>
-
-    <div class="invisible">
-      
+    <div class="visible" id="question">
+      <form action="" method="post">
+        <h3 id="question"></h3>
+        <span id="reponse1" class="reponse"></span>
+        <span id="reponse2" class="reponse"></span>
+        <span id="reponse3" class="reponse"></span>
+        <span id="reponse4" class="reponse"></span>
+      </form>
     </div>
   </main>
   <script src="js/bootstrap.bundle.min.js"></script>
