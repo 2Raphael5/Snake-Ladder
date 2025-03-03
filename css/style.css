@@ -90,7 +90,7 @@ form {
 
 #nbPlayer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 20px;
 }
 
@@ -100,13 +100,14 @@ form {
 
 #playerNameColor {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
 
 .player {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 10px;
 }
 
