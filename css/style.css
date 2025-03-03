@@ -10,22 +10,19 @@ form{
 }
 
 .start-snake{
-    background-color: red;
-}
-.end-snake {
     background-color: rgb(253, 159, 159);
 }
 
-.start-ladder{
-    background-color: green;
-}
 
-.end-ladder{
+.start-ladder{
     background-color: rgb(81, 255, 81);
 }
 
+
+
+
 .question{
-    background-color: aqua;
+    background-color: rgb(112, 255, 255);
 }
 
 .case-simple{
