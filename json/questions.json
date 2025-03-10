@@ -1013,23 +1013,23 @@
     },
     {
         "id": 93,
-        "question": "Comment appelle-t-on une maison construite en bois en pleine montagne ?",
+        "question": "Quel est l'antonyme de : heureux",
         "listeResponse": {
-            "reponse1": "Auberge",
-            "reponse2": "Caravane",
-            "reponse3": "Chalet",
-            "reponse4": "Gîte"
+            "reponse1": "Dysphorique",
+            "reponse2": "Apathique",
+            "reponse3": "Lugubre",
+            "reponse4": "Anxieux"
         },
-        "reponse": 3
+        "reponse": 1
     },
     {
         "id": 94,
-        "question": "Laquelle de ces nages représente le type de nage le plus rapide ?",
+        "question": "Dans un univers où la logique suivie par chaque être vivant est inversée chaque fois qu’une condition précise est remplie, quel est l'impact de cette inversion lorsque l'une des conditions suivantes se réalise :",
         "listeResponse": {
-            "reponse1": "Papillon",
-            "reponse2": "Crawl",
-            "reponse3": "Dos",
-            "reponse4": "Basse"
+            "reponse1": "L'existence d'une force en opposition avec la direction perçue par la majorité des entités de ce même univers, si elle est entachée d'une contradiction spatiale multiple.",
+            "reponse2": "L'équilibre d'un système d'entités interconnectées est rompu, mais seulement après un décalage temporel calculé selon un facteur d'influence non linéaire.",
+            "reponse3": "La perturbation d’un champ cognitif à l’échelle macro-vibratoire entraîne une oscillation inversée de l’intervalle de résonance des entités impliquées.",
+            "reponse4": "Un déplacement horizontal unitaire dans le cadre de la relation intrinsèque à l’axe des ordonnées, tout en maintenant une corrélation entre les éléments de force gravitationnelle et d’antimatière"
         },
         "reponse": 2
     },
@@ -1046,12 +1046,12 @@
     },
     {
         "id": 96,
-        "question": "Quelle course cycliste de France est aussi appelée la Grande Boucle ?",
+        "question": "Quelle est la réponse correcte à cette question ?",
         "listeResponse": {
-            "reponse1": "Paris-Nice",
-            "reponse2": "Tour de France",
-            "reponse3": "Milan-San Remo",
-            "reponse4": "Critérium"
+            "reponse1": "1",
+            "reponse2": "2",
+            "reponse3": "3",
+            "reponse4": "A, B, et C sont toutes fausses"
         },
         "reponse": 2
     },
