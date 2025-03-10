@@ -56,7 +56,7 @@ function rollDice(event) {
     button.disabled = true;
 
     let nombre = Math.trunc(Math.random() * 6) + 1;
-    nombre = 2;
+    
     document.querySelector("#dice").src = "img/De/dé" + nombre + ".png";
     deplacement(nombre);
 }
@@ -88,6 +88,7 @@ function repondre(event) {
     let test = "reponse" + questionActuel.reponse;
     if (test == span.id) {
         deplacement(3);
+        finTour();
     }
     else {
         finTour();
